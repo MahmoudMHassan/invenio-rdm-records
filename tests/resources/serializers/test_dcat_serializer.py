@@ -251,6 +251,7 @@ def test_dcat_serializer(running_app, full_record_to_dict):
         'rdf:resource="https://127.0.0.1:5000/records/12345-abcde/files/test.txt"/>\n'
         "        <dcat:mediaType>text/plain</dcat:mediaType>\n"
         "        <dcat:byteSize>9</dcat:byteSize>\n"
+        "        <dcat:checksum>md5:e795abeef2c38de2b064be9f6364ceae</dcat:checksum>\n"
         "        <dcat:accessURL "
         'rdf:resource="https://doi.org/10.1234/12345-abcde"/>\n'
         "      </dcat:Distribution>\n"
